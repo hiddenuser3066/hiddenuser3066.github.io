@@ -1,0 +1,12 @@
+{
+  "apps": [
+    {
+      "name": "Angry Birds Space",
+      "version": "8.0.3",
+      "bundle_id": "com.rovio.angrybirdsspace",
+      "ipa_url": "https://hiddenuser3066.github.io/ipa/Angry_Birds_Space_v8.0.3.ipa",
+      "icon_url": "https://hiddenuser3066.github.io/images/angry_birds_icon.png",
+      "description": "A popular bird-flinging game set in space with physics-based puzzles."
+    }
+  ]
+}
