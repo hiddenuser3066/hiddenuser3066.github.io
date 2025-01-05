@@ -2,135 +2,104 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to hiddenuser3066's Repo</title>
-    <!-- Link to Google Fonts for Montserrat -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=1, user-scalable=no, minimal-ui">
+    <title>Cydia Repo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <style>
       body {
         font-family: 'Montserrat', sans-serif;
-        background-color: #f4f4f4;
-        color: #333;
         margin: 0;
         padding: 0;
-        line-height: 1.6;
-      }
-      header {
-        background-color: #333;
-        color: white;
-        text-align: center;
-        padding: 10px 0;
-      }
-      h1 {
-        margin: 0;
-        font-size: 2rem;
-      }
-      p {
-        padding: 20px;
-        font-size: 1.1rem;
-        max-width: 800px;
-        margin: 20px auto;
-        line-height: 1.7;
-      }
-      footer {
-        text-align: center;
-        padding: 8px;
-        background-color: #333;
-        color: white;
-        position: fixed;
-        width: 100%;
-        bottom: 0;
-      }
-      h2 {
+        background-color: #f4f4f4;
         color: #333;
-        font-size: 1.7rem;
-      }
-      ul {
-        padding-left: 20px;
-      }
-      ul li {
-        font-size: 1.1rem;
-        margin-bottom: 8px;
-      }
-      .section-title {
-        font-size: 1.3rem;
-        color: #444;
-        margin-top: 30px;
-        margin-bottom: 10px;
-      }
-      /* Styling for the "Add to Cydia" button */
-      .cydia-button {
-        display: inline-block;
-        background-color: #5cba47;
-        color: white;
-        padding: 12px 30px;
-        font-size: 1.2rem;
-        text-decoration: none;
-        border-radius: 5px;
-        margin-top: 20px;
-        transition: background-color 0.3s ease;
-        text-align: center;
-        width: 100%;
-        max-width: 350px; /* Ensure button is not too wide on mobile */
-        margin-left: auto;
-        margin-right: auto;
-      }
-      .cydia-button:hover {
-        background-color: #4a9c3c;
       }
 
-      /* Responsive Styling for Mobile */
+      header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0; /* Reduced height of top panel */
+        margin-bottom: 20px;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0; /* Reduced height of bottom panel */
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+
+      h1 {
+        font-size: 24px;
+        margin: 0;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 1.6;
+        margin: 20px 0;
+      }
+
+      .repo-button {
+        display: block;
+        background-color: #00aaff;
+        color: white;
+        padding: 12px 25px;
+        font-size: 18px;
+        text-align: center;
+        width: 200px;
+        margin: 20px auto;
+        border-radius: 5px;
+        text-decoration: none;
+      }
+
+      .repo-button:hover {
+        background-color: #0088cc;
+      }
+
+      /* For mobile responsiveness */
       @media (max-width: 600px) {
         h1 {
-          font-size: 1.8rem;
+          font-size: 20px;
         }
+
         p {
-          font-size: 1rem;
+          font-size: 14px;
         }
-        .section-title {
-          font-size: 1.1rem;
+
+        .repo-button {
+          width: 100%;
         }
       }
     </style>
   </head>
   <body>
-
     <header>
       <h1>Welcome to hiddenuser3066's Repo!</h1>
     </header>
 
-    <section>
+    <main>
       <p>
-        Hello everyone! The reason I created this repository is simple – it’s 2025, and most repositories and tweaks are disappearing as many old Cydia sources are going down. So, I decided to create a public repo to keep these tweaks alive. This repo will be fully accessible to everyone, with all files visible, so those who need these tweaks or don't have a PC to transfer .deb files manually can easily access them.
+        Hello everyone, the reason I made this repo is because it's 2025, and most repos and tweaks are disappearing due to repos going down. So I decided to create this repo as a public one, with all files visible, for people who are in need of tweaks that went missing or don't have a PC to transfer the .deb file manually.
       </p>
-      
-      <h2 class="section-title">Why This Repo?</h2>
       <p>
-        - This repo contains tweaks that are no longer available elsewhere.<br>
-        - It’s open-source, meaning all files are publicly visible and free to use.<br>
-        - If you don’t have access to a computer, you can still download and install the tweaks directly to your device.<br>
-        - It’s regularly updated, so new tweaks and apps will continue to be added.
+        This repo is intended to serve as a collection of valuable tweaks, including LocalIAPStore, Angry Birds Space IPA, and many more. I hope it serves you well if you're searching for tweaks that aren't available on other repos anymore. You can freely browse and download any tweak from here.
       </p>
-
-      <h2 class="section-title">How to Add This Repo to Cydia</h2>
       <p>
-        To easily add this repository to your Cydia sources, click the button below. It will open Cydia with the repository URL pre-filled for you to add it:
+        Maxoratorz was here. I hope this repo helps you out, and feel free to explore, download, or share it with others.
+      </p>
+      <p>
+        To add this repo to Cydia, just click the button below! It will add the repo directly, so you can easily install the tweaks right from your device.
       </p>
 
-      <!-- Button to add the repo to Cydia -->
-      <a href="cydia://package/https://hiddenuser3066.github.io/" class="cydia-button">Add to Cydia</a>
-
-      <h2 class="section-title">What You’ll Find in This Repo:</h2>
-      <ul>
-        <li>Tweaks that were previously taken down or no longer supported.</li>
-        <li>App packages (.ipa) for older games or apps that might be unavailable elsewhere.</li>
-        <li>Useful tools for jailbroken iOS devices to enhance functionality.</li>
-      </ul>
-    </section>
+      <a href="cydia://addrepo/https://hiddenuser3066.github.io/" class="repo-button">Add Repo to Cydia</a>
+    </main>
 
     <footer>
       <p>Made with love by hiddenuser3066. All rights reserved.</p>
     </footer>
-
   </body>
 </html>
