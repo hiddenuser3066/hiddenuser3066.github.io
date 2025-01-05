@@ -1,1 +1,10 @@
-
+Package: com.anondev.LocalIAPStore
+Name: LocalIAPStore
+Version: 1.4-1
+Architecture: iphoneos-arm
+Description: A tweak for bypassing in-app purchases on supported apps.
+Maintainer: Your Name <your.email@example.com>
+Section: Tweaks
+Filename: debs/anondev.LocalIAPStore_1.4-1_iphoneos-arm.deb
+Size: 71744
+MD5sum: 83243e1147af709fcca768ef28d630c1
